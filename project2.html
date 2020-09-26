@@ -1,0 +1,534 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="project2.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+        <title>Convalescent Plasma Donation Campaign </title>
+    </head>
+    <body>
+        <header class="header">
+
+          <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container"><img src="img/hos.png" alt="logo" style="height: 7rem; padding-right: 3rem;"><a href="#" class="navbar-brand text-uppercase font-weight-bold">MEDICARE</a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold" style="font-size: 20px;">Home<span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold" style="font-size: 20px;">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold" style="font-size: 20px;">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                      <ul class="navbar-nav ml-auto nav-flex-icons">
+                        <li class="nav-item">
+                          <a class="nav-link waves-effect waves-light">
+                            <i class="fab fa-twitter fa-2x"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link waves-effect waves-light">
+                            <i class="fab fa-google-plus-g fa-2x"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user fa-2x"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right dropdown-default"
+                            aria-labelledby="navbarDropdownMenuLink-333">
+                            <a class="dropdown-item" href="#">Login</a>
+                            <a class="dropdown-item" href="#">SignUp</a>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+               
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="img/bo.jpg" alt="..." style="height: 62rem;">
+                  <div class="carousel-caption">
+                    <h2 id="s" class="animated bounceInRight" style="animation-delay: 1s; color: #18436e;">Help COVID-19 Patients</h2>
+                    <h3 class="animated bounceInLeft" style="animation-delay: 2s">You can help them by donating.</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/w.jpg" alt="..." style="height: 62rem;">
+                  <div class="carousel-caption">
+                    <h2 class="animated slideInDown" style="animation-delay: 1s; color: #18436e;">COVID-19 UPDATES</h2>
+                    <a href="https://www.mohfw.gov.in/" class="square_btn">Click to know More!</a>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/docnun.jpg" alt="..." style="height: 62rem;">
+                  <div class="carousel-caption">
+                    <h2 id="s" class="animated zoomIn" style="animation-delay: 1s; color: #18436e;">Thank You Doctors and Nurses</h2>
+                  </div>
+                </div>
+          
+              </div>
+          
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </header>
+
+        <div class="container h-10">
+          <div class="d-flex justify-content-center h-10">
+            <div class="searchbar">
+              <input class="search_input" type="text" name="" placeholder="Enter a Doctor, Specialty, or Condition">
+              <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="h">Services Provided</h2>
+        
+        <div class="card horizontal">
+          <section class="container-fluid px-0 ug">
+            <div class="row align-items-center content">
+              <div class="col-md-6" id="img">
+                <img src="img/onl.jpg" class="img-fluid" style="height: 300px;">
+              </div>
+              <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                  <div class="col-10 col-lg-8 blurb">
+                    <h2><strong>The care you need, when you need it</strong></h2>
+                    <p style="font-size: 20px;">Our doctors and other caregivers offer high-quality, compassionate care across hundreds of specialties with one united purpose: to help our patients be well in mind, body and spirit.</p>
+                    <div class="btn-group btn-group-lg"><button type="button" class="btn btn-primary">Find a Doctor or Specialist</button></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="container-fluid px-0 ug" >
+            <div class="row align-items-center">
+              <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                  <div class="col-10 col-lg-8 blurb">
+                    <h2><strong>Locations to serve you</strong></h2>
+                    <p style="font-size: 20px;">With nearly 500 locations in throughout Ohio and Kentucky, we make it easy to find the care you need, close to where you live, work and play.</p>
+                    <div class="btn-group btn-group-lg"><button type="button" class="btn btn-primary">Find a MediCare near You</button></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img src="img/loc.jpg" class="img-fluid" style="height: 300px; padding-left: 21rem;">
+              </div>
+            </div>
+          </section> 
+
+          <section class="container-fluid px-0 ug">
+            <div class="row align-items-center content">
+              <div class="col-md-6" id="img">
+                <img src="img/onh.jpg" class="img-fluid" style="height: 450px; width: 500px;">
+              </div>
+              <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                  <div class="col-10 col-lg-8 blurb">
+                    <h2><strong>Online Doctor Visits & Virtual Care</strong></h2>
+                    <p style="font-size: 20px;">With the rapidly evolving situation around COVID-19, we want to continue providing easy access to trusted care. That’s why we’ve begun offering virtual visits. These visits will make it possible to receive virtual care from one of our trusted, highly skilled clinicians during this time of physical distancing.</p>
+                    <div class="btn-group btn-group-lg"><button type="button" class="btn btn-primary">Learn More</button></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+
+      <h2 class="h">Plasma Donations from Recovered COVID-19 Patients</h2>
+
+      <div>
+        <section class="container-fluid px-0 ug" style="padding-top: 3rem;">
+          <div class="row align-items-center content">
+            <div class="col-md-6" id="img">
+              <iframe width="600" height="315"
+              src="https://www.youtube.com/embed/3YydV0L5q6A?autoplay=1&mute=1">
+              </iframe>
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+              <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 blurb">
+                  <h2><q><strong>Are you fully recovered from a verified COVID-19 diagnosis?</strong> </q></h2>
+              <p class="lead">If so, the plasma in your blood may contain COVID-19 antibodies that can attack the virus. This convalescent plasma is being evaluated as a possible treatment for currently ill COVID-19 patients, so your donation could help save the lives of patients battling this disease!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </div>
+
+    <h4 style="text-align: center;"><strong>You may qualify to donate plasma for coronavirus patients if you meet specific convalescent plasma and regular blood donation eligibility requirements:</strong></h4>
+
+    <div class="card-deck">
+
+      <section class="ca"> 
+        <div class="card card-cascade wider" style="width: 30rem;">
+          <!-- Card image -->
+          <div class="view overlay zoom">
+            <img class="card-img-top" src="img/ch.png" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+        <!-- Card content -->
+        <div class="card-body card-body-cascade text-center">
+          <!-- Text -->
+          <p class="card-text" style="font-size: 20px;">You are at least 17 years old and weigh 110 lbs. Additional weight requirements apply for donors age 18 or younger.</p>
+        </div>
+      </section></a>
+
+      <section class="ca"> 
+        <div class="card card-cascade wider" style="width: 30rem;">
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" src="img/good.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+            <!-- Card content -->
+            <div class="card-body card-body-cascade text-center">
+              <!-- Text -->
+              <p class="card-text" style="font-size: 20px;">In good health. You generally feel well, even if you're being treated for a chronic condition.<a href="https://www.redcrossblood.org/faq.html#eligibility"> View blood donation FAQ’s.</a></p>
+            </div>
+      </section></a>
+
+      
+
+      <section class="ca"> 
+        <div class="card card-cascade wider" style="width: 30rem;">
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" src="img/vir.png" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            </div>
+            <!-- Card content -->
+            <div class="card-body card-body-cascade text-center">
+              <!-- Text -->
+              <p class="card-text" style="font-size: 20px;">Have a prior, verified diagnosis of COVID-19, but are now symptom free.<a href="https://www.redcrossblood.org/faq.html#donating-blood-covid-19-convalescent-plasma">View COVID-19 Plasma FAQ’s.</a></p>
+            </div>
+          </div>
+        </section></a>
+      </div>
+
+      <h3 class="h">Sign Up To Give COVID-19 Convalescent Plasma</h3>
+      <p style="font-size: 20px; text-align: center;">If you are ready to help patients and meet the eligibility criteria above, please fill out the form. Once your initial eligibility is confirmed, we will contact you via phone within 1-3 business days to schedule your donation.</p>
+        
+      <div class="container">
+
+        <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+    <fieldset>
+    
+    <!-- Form Name -->
+    <legend><center><h2><b>Sign Up Form</b></h2></center></legend><br>
+    
+    <!-- Text input-->
+    
+    <div class="form-group">
+      <label class="col-md-4 control-label">First Name</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    
+    <div class="form-group">
+      <label class="col-md-4 control-label" >Last Name</label> 
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+        </div>
+      </div>
+    </div>
+    
+      <div class="form-group"> 
+      <label class="col-md-4 control-label">Gender</label>
+        <div class="col-md-4 selectContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+        <select name="department" class="form-control selectpicker">
+          <option value="">Please Select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+    </div>
+    </div>
+      
+    <!-- Text input-->
+           <div class="form-group">
+      <label class="col-md-4 control-label">E-Mail</label>  
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+      <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- Text input-->
+           
+    <div class="form-group">
+      <label class="col-md-4 control-label">Contact No.</label>  
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+      <input name="contact_no" placeholder="+91" class="form-control" type="text">
+        </div>
+      </div>
+    </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label">Address Line 1</label>  
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"></i></span>
+          <input name="address 1"  class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label">Address Line 2</label>  
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"></i></span>
+          <input name="address 2"  class="form-control"  type="text">
+            </div>
+          </div>
+        </div>        
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label">City</label>  
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"></i></span>
+          <input name="city" placeholder="City" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label">State</label>  
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"></i></span>
+          <input name="State" placeholder="State" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label">ZipCode</label>  
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"></i></span>
+          <input name="zipcode" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <h3 style="text-align: center;">Please Answer below questions carefully.</h3>
+
+        <div class="form-group"> 
+          <h4>Was your COVID-19 diagnosis confirmed by a lab test?</h4>
+            <div class="col-md-4 selectContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+            <select name="department" class="form-control selectpicker">
+              <option value="">Please Select</option>
+              <option>I Don't Know</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+        </div>
+        </div>
+
+        <div class="form-group"> 
+          <h4>Do You Currently Have Symptoms?</h4>
+            <div class="col-md-4 selectContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+            <select name="department" class="form-control selectpicker">
+              <option value="">Please Select</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+        </div>
+        </div>
+
+        <div class="form-group"> 
+          <h4>Has it been at least 14 days since the last day of your symptoms (COVID-19 symptoms include fever, cough and shortness of breath)?</h4>
+            <div class="col-md-4 selectContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+            <select name="department" class="form-control selectpicker">
+              <option value="">Please Select</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+        </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <h4>Date of last symptom</h4>
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"></i></span>
+          <input name="date" class="form-control"  type="date">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group"> 
+          <h4>Have you had a follow up test that was negative for COVID-19 or shows you no longer have COVID-19?</h4>
+            <div class="col-md-4 selectContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+            <select name="department" class="form-control selectpicker">
+              <option value="">Please Select</option>
+              <option>I Don't Know</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+        </div>
+        </div>
+    
+    <!-- Select Basic -->
+    
+    <!-- Success message -->
+    <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Success!.</div>
+    
+    <!-- Button -->
+    <div class="form-group">
+      <label class="col-md-4 control-label"></label>
+      <div class="col-md-4"><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+      </div>
+    </div>
+    
+    </fieldset>
+    </form>
+    </div>
+        </div><!-- /.container -->
+
+  <!----------- Footer ------------>
+  <footer class="footer-bs">
+    <div class="row">
+      <div class="col-md-3 footer-brand animated fadeInLeft">
+        <h2>MEDICARE</h2>
+            <p>Have questions about billing, insurance, or something else? Call (12) 345 658 or <a href="#">click here.</a></p>
+        </div>
+      <div class="col-md-4 footer-nav animated fadeInUp">
+          <h4>Explore</h4>
+          <div class="col-md-6">
+                <ul class="pages">
+                    <li><a href="#">Find A Doctor</a></li>
+                    <li><a href="#">Appointment</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Pay a Bill</a></li>
+                    <li><a href="#">My Chart</a></li>
+                </ul>
+            </div>
+          <div class="col-md-6">
+                <ul class="list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+      <div class="col-md-2 footer-social animated fadeInDown">
+          <h4>Follow Us</h4>
+          <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">RSS</a></li>
+            </ul>
+        </div>
+      <div class="col-md-3 footer-ns animated fadeInRight">
+          <h4>Newsletter</h4>
+          <p>Search for the medication you need</p>
+            <p>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" style="height: 34px;"><span class="glyphicon glyphicon-envelope"></span></button>
+                  </span>
+                </div><!-- /input-group -->
+             </p>
+        </div>
+    </div>
+</footer>
+
+</div>
+    </body>
+</html>
